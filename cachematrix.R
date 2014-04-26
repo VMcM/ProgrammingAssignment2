@@ -10,11 +10,6 @@
 ## get the value of the inverse of the matrix
 
 
-
-
-
-
-
 makeCacheMatrix <- function(x = matrix()) {
 
         i <- NULL
@@ -26,8 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
         setInverse <- function(solve) i <<- solve
         getInverse <- function() i
         list(set = set, get = get,
-             setinverse = setinverse,
-             getinverse = getinverse)             
+             setinverse = setInverse,
+             getinverse = getInverse)             
 }
 
 
